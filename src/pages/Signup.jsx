@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
@@ -57,7 +58,7 @@ const Signup = () => {
                   <span className="text-gray-600">
                     Already subscribed to Netflix?
                   </span>{" "}
-                  <a href="/login">Sign In</a>
+                  <Link to="/login">Sign In</Link>
                 </p>
               </form>
             </div>
